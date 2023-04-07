@@ -112,7 +112,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -130,6 +130,275 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/07/multichannelTESexp/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Chen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="weekly report">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | weekly report">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/04/07/multichannelTESexp/" class="post-title-link" itemprop="url">多通道目标语言提取实验</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2023-04-07 17:04:15 / Modified: 20:15:22" itemprop="dateCreated datePublished" datetime="2023-04-07T17:04:15+08:00">2023-04-07</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <style>
+   
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.image-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        width: 40%;
+        max-width: 300px;
+        position: relative;
+}
+
+.image-name {
+    margin-top: -5px;
+    text-align: center;
+    z-index: 3;
+}
+
+.image-container audio {
+    width: 100%;
+    margin-top: -10px;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+</style>
+<h2 id="实验说明"><a href="#实验说明" class="headerlink" title="实验说明"></a>实验说明</h2><p>  在B402教室录制了两条语音，说话人的角度分别约为45度和180度，对录制的两条多通道语音分别以重叠率为20%， 50%， 100%进行混合</p>
+<h4 id="重叠率-20"><a href="#重叠率-20" class="headerlink" title="重叠率 20%"></a>重叠率 20%</h4><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov20_mixspecgram.png">  
+    <div class="image-name"> 混合语音</div>
+    <audio controls src="audio/0327realdataexp/ov20_mix.wav"></audio>
+    </div>
+</div>
+
+<div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov20_s1specgram.png">  
+    <div class="image-name"> 说话人1 理想语音</div>
+    <audio controls src="audio/0327realdataexp/ov20_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov20_s2specgram.png">  
+    <div class="image-name"> 说话人2 理想语音</div>
+    <audio controls src="audio/0327realdataexp/ov20_s2.wav"></audio>
+    </div>
+</div>
+###### 双通道实时目标语音提取实验
+<div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/online_2ch_TSE_ov20_mix_TSE_s1specgram.png">  
+    <div class="image-name"> 说话人1 提取语音</div>
+    <audio controls src="audio/0327realdataexp/online_2ch_TSE_ov20_mix_TSE_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/online_2ch_TSE_ov20_mix_TSE_s2specgram.png">  
+    <div class="image-name"> 说话人2 提取语音</div>
+    <audio controls src="audio/0327realdataexp/online_2ch_TSE_ov20_mix_TSE_s2.wav"></audio>
+    </div>
+</div>
+
+<h6 id="四通道离线目标语音提取实验"><a href="#四通道离线目标语音提取实验" class="headerlink" title="四通道离线目标语音提取实验"></a>四通道离线目标语音提取实验</h6><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/offline_4ch_TSE_ov20_mix_TSE_s1specgram.png">  
+    <div class="image-name"> 说话人1 提取语音</div>
+    <audio controls src="audio/0327realdataexp/offline_4ch_TSE_ov20_mix_TSE_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/offline_4ch_TSE_ov20_mix_TSE_s2specgram.png">  
+    <div class="image-name"> 说话人2 提取语音</div>
+    <audio controls src="audio/0327realdataexp/offline_4ch_TSE_ov20_mix_TSE_s2.wav"></audio>
+    </div>
+</div>
+可以发现第一个说话人的语音出现了错误提取的情况，可以通过更新参考语音解决这个问题(需要一个参考语音评价方法)
+<div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/offline_4ch_TSE_ov20_mix_TSEnewaux_s1specgram.png">  
+    <div class="image-name"> 说话人1 提取语音(更新参考语音)</div>
+    <audio controls src="audio/0327realdataexp/offline_4ch_TSE_ov20_mix_TSEnewaux_s1.wav"></audio>
+    </div>
+</div>
+
+
+<h4 id="重叠率-50"><a href="#重叠率-50" class="headerlink" title="重叠率 50%"></a>重叠率 50%</h4><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov50_mixspecgram.png">  
+    <div class="image-name"> 混合语音</div>
+    <audio controls src="audio/0327realdataexp/ov50_mix.wav"></audio>
+    </div>
+</div>
+
+<div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov50_s1specgram.png">  
+    <div class="image-name"> 说话人1 理想语音</div>
+    <audio controls src="audio/0327realdataexp/ov50_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov50_s2specgram.png">  
+    <div class="image-name"> 说话人2 理想语音</div>
+    <audio controls src="audio/0327realdataexp/ov50_s2.wav"></audio>
+    </div>
+</div>
+
+<h6 id="双通道实时目标语音提取实验"><a href="#双通道实时目标语音提取实验" class="headerlink" title="双通道实时目标语音提取实验"></a>双通道实时目标语音提取实验</h6><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/online_2ch_TSE_ov50_mix_TSE_s1specgram.png">  
+    <div class="image-name"> 说话人1 提取语音</div>
+    <audio controls src="audio/0327realdataexp/online_2ch_TSE_ov50_mix_TSE_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/online_2ch_TSE_ov50_mix_TSE_s2specgram.png">  
+    <div class="image-name"> 说话人2 提取语音</div>
+    <audio controls src="audio/0327realdataexp/online_2ch_TSE_ov50_mix_TSE_s2.wav"></audio>
+    </div>
+</div>
+
+<h6 id="四通道离线目标语音提取实验-1"><a href="#四通道离线目标语音提取实验-1" class="headerlink" title="四通道离线目标语音提取实验"></a>四通道离线目标语音提取实验</h6><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/offline_4ch_TSE_ov50_mix_TSE_s1specgram.png">  
+    <div class="image-name"> 说话人1 提取语音</div>
+    <audio controls src="audio/0327realdataexp/offline_4ch_TSE_ov50_mix_TSE_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/offline_4ch_TSE_ov50_mix_TSE_s2specgram.png">  
+    <div class="image-name"> 说话人2 提取语音</div>
+    <audio controls src="audio/0327realdataexp/offline_4ch_TSE_ov50_mix_TSE_s2.wav"></audio>
+    </div>
+</div>
+
+
+<h4 id="重叠率-100"><a href="#重叠率-100" class="headerlink" title="重叠率 100%"></a>重叠率 100%</h4><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov100_mixspecgram.png">  
+    <div class="image-name"> 混合语音</div>
+    <audio controls src="audio/0327realdataexp/ov100_mix.wav"></audio>
+    </div>
+</div>
+
+<div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov100_s1specgram.png">  
+    <div class="image-name"> 说话人1 理想语音</div>
+    <audio controls src="audio/0327realdataexp/ov100_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/ov100_s2specgram.png">  
+    <div class="image-name"> 说话人2 理想语音</div>
+    <audio controls src="audio/0327realdataexp/ov100_s2.wav"></audio>
+    </div>
+</div>
+
+
+<h6 id="双通道实时目标语音提取实验-1"><a href="#双通道实时目标语音提取实验-1" class="headerlink" title="双通道实时目标语音提取实验"></a>双通道实时目标语音提取实验</h6><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/online_2ch_TSE_ov100_mix_TSE_s1specgram.png">  
+    <div class="image-name"> 说话人1 提取语音</div>
+    <audio controls src="audio/0327realdataexp/online_2ch_TSE_ov100_mix_TSE_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/online_2ch_TSE_ov100_mix_TSE_s2specgram.png">  
+    <div class="image-name"> 说话人2 提取语音</div>
+    <audio controls src="audio/0327realdataexp/online_2ch_TSE_ov100_mix_TSE_s2.wav"></audio>
+    </div>
+</div>
+
+<h6 id="四通道离线目标语音提取实验-2"><a href="#四通道离线目标语音提取实验-2" class="headerlink" title="四通道离线目标语音提取实验"></a>四通道离线目标语音提取实验</h6><div class="image-container">
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/offline_4ch_TSE_ov100_mix_TSE_s1specgram.png">  
+    <div class="image-name"> 说话人1 提取语音</div>
+    <audio controls src="audio/0327realdataexp/offline_4ch_TSE_ov100_mix_TSE_s1.wav"></audio>
+    </div>
+    <div class="image-box">
+    <img src="/2023/04/07/multichannelTESexp/0327realdataexp/offline_4ch_TSE_ov100_mix_TSE_s2specgram.png">  
+    <div class="image-name"> 说话人2 提取语音</div>
+    <audio controls src="audio/0327realdataexp/offline_4ch_TSE_ov100_mix_TSE_s2.wav"></audio>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -169,7 +438,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2023-04-06 20:01:31 / Modified: 20:20:38" itemprop="dateCreated datePublished" datetime="2023-04-06T20:01:31+08:00">2023-04-06</time>
+      <time title="Created: 2023-04-06 20:01:31 / Modified: 22:41:46" itemprop="dateCreated datePublished" datetime="2023-04-06T20:01:31+08:00">2023-04-06</time>
     </span>
 
   
@@ -182,9 +451,56 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="尝试插入图片"><a href="#尝试插入图片" class="headerlink" title="尝试插入图片"></a>尝试插入图片</h1><p><img src="/2023/04/06/newblog1/2ff442798331f6cc6005098766304e39.jpg" alt="2ff442798331f6cc6005098766304e39"></p>
-<h1 id="尝试插入音频"><a href="#尝试插入音频" class="headerlink" title="尝试插入音频"></a>尝试插入音频</h1><p><audio controls src="/audio/offline_4ch_TSE_spk1m_spk2w_ov20_mix_TSE_s1.mp3"></audio></p>
+          <style>
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    .image-name {
+        margin-top: 2px;
+        text-align: center;
+    }
 
+    /* .image-container img{
+        flex: 1;
+        margin: 10px;
+        width: 30%;
+        height: auto;
+        max-width: 100%;
+    } */
+</style>
+
+
+
+<h1 id="尝试插入图片"><a href="#尝试插入图片" class="headerlink" title="尝试插入图片"></a>尝试插入图片</h1><div class="image-container">
+    <div class="image-box">
+        <img src="/2023/04/06/newblog1/offline_4ch_TSE_spk1m_spk2w_ov20_mix_TSE_s1.png" alt="Image 1">
+        <div class="image-name"> 图片1</div>
+    </div>
+    <div class="image-box">
+        <img src="/2023/04/06/newblog1/offline_4ch_TSE_spk1m_spk2w_ov20_mix_TSE_s2.png" alt="Image 1">
+        <div class="image-name"> 图片2</div>
+    </div>
+</div>
+
+
+
+<div align="center">
+<audio controls style="margin-right: 150px;">
+<source src="/audio/0404systhsisaudio/offline_4ch_TSE_spk1m_spk2w_ov20_mix_TSE_s1.wav">
+</audio>
+<audio controls style="margin-left: 5px;">
+<source src="/audio/0404systhsisaudio/offline_4ch_TSE_spk1m_spk2w_ov20_mix_TSE_s1.wav">
+</audio>
+</div>
       
     </div>
 
